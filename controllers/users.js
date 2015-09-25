@@ -29,7 +29,6 @@ module.exports = {
     newUser: function (req, res) {
 
         var user = new User();
-        var that = this;
 
         user.email = req.body.email;
 
