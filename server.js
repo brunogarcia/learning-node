@@ -31,7 +31,7 @@ if ('development' == app.get('env')) {
 }
 
 //connect to the db server:
-mongoose.connect('mongodb://localhost/beeva');
+mongoose.connect('mongodb://localhost/myapp');
 mongoose.connection.on('open', function() {
     console.log("Connected to Mongoose...");
 });

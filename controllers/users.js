@@ -39,8 +39,6 @@ module.exports = {
 
             req.id = user.id;
 
-            console.log(this);
-
             module.exports.updateUser.apply(this, [req, res]);
 
             res.json(200, { 'status': 'ok', 'userId': user.id });
